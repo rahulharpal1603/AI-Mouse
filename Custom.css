@@ -1,0 +1,96 @@
+html{
+  scroll-behavior: smooth;
+}
+body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.navbar{
+  transition: 0.5s ease;
+}
+
+.navbar:hover {
+  background-color: #e0f9ff;
+  
+}
+.logo{
+  width:200px;
+}
+#welcome-poster {
+  background-color: #00667f;
+  padding: 80px;
+  transition: 0.5s ease;
+}
+
+#welcome-poster:hover {
+  background-color: #027e9c;
+  
+}
+
+.feature {
+  background-color: #81d7ec !important;
+}
+
+.feature-card {
+  background-color: #00728f !important;
+  color: #00ccff;
+}
+
+.feature-text {
+  font-size: 30px !important;
+}
+
+.features{
+  background-color: #00667f !important;
+  padding: 80px;
+  color:#80e6ff;
+  transition: 0.5s ease;
+}
+
+.features i{
+  display:block;
+  font-size:100px;
+  text-align: center;
+
+}
+
+.features h1{
+  text-align: center;
+  font-size: 40px;
+}
+.features:hover{
+  background-color: #027e9c !important;
+  
+  
+} 
+
+.card-columns .card{
+  border: none;
+  cursor: pointer;
+  transition:transform 0.6s ;
+}
+
+.card-columns #txt{
+  background-color: #00728f;
+  transition: transform 0.6s;
+  color:#80e6ff;
+}
+
+.card-columns #txt:hover{
+  background-color: #027e9c;
+  transform: scale(0.8)
+}
+
+.card-columns .card img{
+  width: 70%;
+}
+.card-columns .card:hover{
+  transform:scale(0.8);
+}
+.footer{
+bottom:0px;
+background-color: #e0f9ff;
+}
